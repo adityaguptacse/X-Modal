@@ -45,7 +45,7 @@ function App() {
         Open Form
       </button>
       {isOpen && (
-        <div onClick={(e) => setIsOpen(false)} className="popup-box modal">
+        <div onClick={(e) => setIsOpen(false)} className="popup-box modal ">
           <div onClick={(e) => e.stopPropagation()} className="box">
             <h3>Fill Details</h3>
             <div className="modal-content">
@@ -95,7 +95,7 @@ function App() {
                   />
                 </div>
                 <div className="input-field mt-5">
-                  <button type="submit" className="submit">
+                  <button type="submit" className="submit submit-button">
                     Submit
                   </button>
                 </div>
